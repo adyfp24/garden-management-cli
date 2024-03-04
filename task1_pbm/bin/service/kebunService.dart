@@ -25,6 +25,7 @@ class KebunService {
 
     detailPanenList.add(DetailPanen(namaHasilPanen, jumlahPanen).toMap());
     hasilPanenList.add(HasilPanen(id, waktuPanen, jenisPanen, detailPanenList));
+    id++;
     showData();
   }
 

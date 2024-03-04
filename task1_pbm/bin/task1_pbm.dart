@@ -18,10 +18,10 @@ void main(List<String> arguments) {
 
   switch (pilihanMenu) {
     case '1':
-      kebunService.insertData();
+      kebunService.showData();
       break;
     case '2':
-      kebunService.showData();
+      kebunService.insertData();
       break;
     case '3':
       kebunService.updateData();

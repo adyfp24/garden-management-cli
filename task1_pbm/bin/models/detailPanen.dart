@@ -1,6 +1,6 @@
 class DetailPanen {
-  final String? nama;
-  final String? jumlah;
+  String? nama;
+  String? jumlah;
 
   DetailPanen(this.nama, this.jumlah);
 

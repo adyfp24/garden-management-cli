@@ -27,7 +27,7 @@ void main(List<String> arguments) {
       kebunService.updateData();
       break;
     case '4':
-      kebunService.updateData();
+      kebunService.deleteData();
       break;
     default:
   }
